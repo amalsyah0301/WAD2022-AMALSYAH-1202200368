@@ -58,7 +58,7 @@
                 </div>
 
                 <div class="col-6">
-                    <form action="my_booking.php" method="post">
+                    <form action="Amalsyah_ListBooking.php" method="post">
                     <label for="">Name</label>
                     <input type="text" class="form-control form-control-readonly" readonly value="Amalsyah_1202200368" name="nama">
 
@@ -73,7 +73,7 @@
                     <label for="">Duration</label>
                     <input type="number" class="form-control" name="jam">
                     <label for="">Car Type</label>
-                    <select name="jenisgedung" id="" class="form-select">
+                    <select name="jenismobil" id="" class="form-select">
                         <option value="Toyota Rush">Toyota Rush</option>
                         <option value="Toyota Alya">Toyota Alya</option>
                         <option value="Honda Brio">Honda Brio</option>
@@ -84,19 +84,19 @@
 
                     <label for="">Add Service</label>
                     <div class="form-check ">
-                        <input class="form-check-input" type="checkbox" value="700" id="" name="servis[]">
+                        <input class="form-check-input" type="checkbox" value="25000" id="" name="servis[]">
                         <label class="form-check-label" for="">
                             Health protocol/Rp25.000
                         </label>
                     </div>
                     <div class="form-check ">
-                        <input class="form-check-input " type="checkbox" value="450" id="" name="servis[]">
+                        <input class="form-check-input " type="checkbox" value="250000" id="" name="servis[]">
                         <label class="form-check-label" for="">
                             Driver/Rp.100.000
                         </label>
                     </div>
                     <div class="form-check ">
-                        <input class="form-check-input" type="checkbox" value="250" id="" name="servis[]">
+                        <input class="form-check-input" type="checkbox" value="100000" id="" name="servis[]">
                         <label class="form-check-label" for="">
                              Fuelfilled/Rp.250.000
                         </label>
